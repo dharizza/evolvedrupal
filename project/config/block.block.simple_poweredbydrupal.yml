@@ -1,0 +1,20 @@
+uuid: bfe46485-daff-4451-aa0f-32de4e9b5d6f
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - simple
+id: simple_poweredbydrupal
+theme: simple
+region: footer
+weight: 0
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

@@ -1,0 +1,23 @@
+uuid: 9c763a9b-ba49-4f6d-8265-e7f6f654807b
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - simple
+id: simple_sitebranding
+theme: simple
+region: social
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: false
+visibility: {  }

@@ -1,0 +1,25 @@
+uuid: 2c83ab1b-60ff-439f-9274-835fc440b9e4
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:d7bddc74-dd66-4076-a0ae-29a2f00ea8fa'
+  module:
+    - block_content
+  theme:
+    - simple
+id: simple_customblocktest
+theme: simple
+region: social
+weight: 0
+provider: null
+plugin: 'block_content:d7bddc74-dd66-4076-a0ae-29a2f00ea8fa'
+settings:
+  id: 'block_content:d7bddc74-dd66-4076-a0ae-29a2f00ea8fa'
+  label: 'Custom block test'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
